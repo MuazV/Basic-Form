@@ -3,92 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 100%;
-    width: 100%;
-}
-
 h2 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    margin: 10px;
 }
 fieldset {
-    margin-left: 10px;
-}
-
-.check-label {
-    display: block;
-}
-.div1 div {
-    margin: 10px;
+    margin: 5px 30px;
 }
 legend {
     margin-left: 10px;
 }
-
-.table {
-    display: table;
-}
-
-.row {
-    display: table-row;
-}
-
-.row input {
-        display: table-cell;
-        margin-left: 10px;
-        margin-bottom: 8px;
-}
-.row label {
-    padding-left: 10px;
-    display: table-cell;
-}
-.row3 {
-    display: flex;
-}
-.row3 input{
-    margin-left: 50px;
-
-}
-.row3 label {
-    margin-left: 10px;
-}
-
-.div3 div input{
-    margin-left: 150px;
-}
-
-.bottom {
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.Progd label {
-    display: block;
-    margin-right: 145px;
-    margin-left: 10px;
-    
-}
-.Progd {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-h4 {
-    padding-left: 50px;
-    margin: 10px 0;
-}
-.sozlesme {
-    margin-left: 10px;
-}
-.sozlesme textarea {
+.Onay input {
     margin: 10px;
 }
 
-.footer {
-    margin-left: 10px;
+.Kis-label {
+    display: inline-block;
+    margin: 10px;
+    width: 150px;
 }
 
-.footer div {
+.sektör, .input-right {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.sektör {
+    width: 200px;
+}
+h4 {
+    padding-left: 50px;
+}
+
+#sözlesme {
+    margin: 10px;
+    resize: none;
+}
+
+.footer {
     margin: 10px;
 }
